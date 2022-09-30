@@ -67,7 +67,7 @@ void main(){
             system("color 07");
             printf("Tv desligada! \n");
             break;
-        case 6: // desligar o computador
+        case 6: //desligar o computador
             system("cls"); 
             system("color 20");
             printf("Alexa, desligue o computador! \n");
@@ -77,8 +77,15 @@ void main(){
             system("color 07");
             printf("Computador desligado! \n");
             break;
-        case 7:
-
+        case 7: //sair
+            system("cls"); 
+            system("color F0");
+            printf("Alexa, tchau! \n");
+            printf("... \n");
+            sleep(3);
+            system("cls");
+            system("color 07");
+            printf("Tchau! \n");
             break;
         default:
             printf("Valor inserido inválido");
