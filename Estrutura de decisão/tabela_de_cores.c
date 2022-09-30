@@ -88,6 +88,8 @@ void main(){
             printf("Tchau! \n");
             break;
         default:
+            system("cls");
+            system("color 47");
             printf("Valor inserido inválido");
             break;
     }
